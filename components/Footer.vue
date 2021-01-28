@@ -9,7 +9,7 @@
      <li> ｜</li>
      <nuxt-link to="/contact" style="text-decoration: none ;color:white"><li>ご意見・ご要望</li></nuxt-link>
     </ul>
-    <p>© 2020 JP Geeks.</p>
+    <p>© 2021 あるあるBOX.</p>
   </footer>
 </template>
 <style>

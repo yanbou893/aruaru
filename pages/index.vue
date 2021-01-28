@@ -2,7 +2,7 @@
   <div class="body">
       <div class="content">
         <Header />
-        <!-- <product /> -->
+        <product />
         <Footer />
       </div>
   </div>
@@ -11,11 +11,12 @@
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
-// import product from '~/components/main/product_tab.vue'
+import product from '~/components/main/product_tab.vue'
 export default {
   components: {
     Header,
     Footer,
+    product
   }
 }
 </script>

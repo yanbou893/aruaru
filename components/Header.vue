@@ -1,15 +1,23 @@
 <template>
 <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">あるある</b-navbar-brand>
+    <b-navbar-brand  to="/">
+          あるあるBOX
+          </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">あるある</b-nav-item>
-        <b-nav-item href="#">お題</b-nav-item>
-        <b-nav-item href="#">ユーザー</b-nav-item>
+        <b-nav-item to="/link01">
+          あるある
+          </b-nav-item>
+        <b-nav-item  to="/link01">
+          お題
+          </b-nav-item>
+        <b-nav-item to="/link01">
+          ユーザー
+          </b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -20,8 +28,12 @@
         </b-nav-form> -->
 
         <b-nav-item-dropdown text="投稿する" right>
-          <b-dropdown-item href="#">あるある</b-dropdown-item>
-          <b-dropdown-item href="#">お題</b-dropdown-item>
+          <b-dropdown-item to="/addcontents">
+          あるある
+          </b-dropdown-item>
+          <b-dropdown-item to="/addtitle">
+          お題
+          </b-dropdown-item>
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown right>
